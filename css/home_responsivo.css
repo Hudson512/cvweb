@@ -1,0 +1,169 @@
+/* Media query(Resposive Design)
+	Tamanho <= 939px */
+@media (max-width: 989px){
+
+header{
+	background-color: black;
+	position: fixed;
+    top: 0;
+	height: 10.5%;
+	width: 100%;
+}
+
+div img{
+	border-radius: 200px;
+	border: 1px solid black;
+	
+	height: 100px;
+	width: 30%;
+	float: right;
+	margin-top: 3%;
+	margin-left: 10%;
+	box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 1.0);
+}
+
+.apresentacao{
+	display: inline-block;
+	height: 20%;
+	width: 70%;
+	position: absolute;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.apresentacao h1{
+	font-size: 70%;
+	font-weight: 900;
+	text-align: center;
+	color: white;
+}
+.apresentacao h2{
+	font-size: 40%;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+
+/*---------------- Corpo -------------- */
+
+.principal{
+	clear: both;
+	margin-top: 100px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+}
+.principal h1{
+	font-size: 65%;
+	font-weight: 900;
+	margin-bottom: 10px;
+	margin-left: 0.9%;
+
+}
+
+.principal h2{
+	font-size: 50%;
+	font-weight: 850;
+	
+}
+
+.principal p{
+	text-align: justify;
+	font-weight: 600;
+	text-indent: 5px;
+	font-size: 60%;
+	margin-left: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.principal ul li{
+	font-weight: 600;
+	text-indent: justify;
+	line-height: 12px;
+	word-spacing: 1px !important;
+	font-size: 60%;
+	margin-left: -25px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+}
+table,th,td{
+	border: 1px solid black;
+	padding: 1px;
+	line-height: 8px;
+	font-size: 70%;
+}
+th{
+	font-weight: 900;
+}
+td{
+	font-weight: 700;
+}
+footer h1{
+	display: inline-block;
+	font-size: 50%;
+	margin-bottom: 2%;
+ 
+}
+footer span{
+	font-weight: 900;
+	font-size: 50%;
+}
+
+
+/*-------------- Outra condição ----------------*/
+
+	/* Media query(Resposive Design)
+	Tamanho >= 480px */
+	@media (min-width: 400px){
+
+		
+		footer h1{
+			display: inline-block;
+			font-size: 50%;
+		}
+		footer span{
+			font-weight: 900;
+			font-size: 50%;
+		}
+	}
+
+	/*-------------- Outra condição ----------------*/
+
+	/* Media query(Resposive Design)
+	Tamanho >= 720px */
+
+	@media	(min-width:	720px){
+
+		header{
+			background-color: black;
+			position: fixed;
+		    top: 0;
+			height: 12%;
+			width: 100%;
+		}
+
+		div img{
+			border-radius: 200px;
+			border: 1px solid black;
+			
+			height: 130px;
+			width: 20%;
+			float: right;
+			margin-top: 3%;
+			margin-left: 10%;
+			box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 1.0);
+		}
+
+		
+		footer h1{
+			display: inline-block;
+			font-size: 50%;
+		}
+		footer span{
+			font-weight: 900;
+			font-size: 50%;
+		}
+	}
+}

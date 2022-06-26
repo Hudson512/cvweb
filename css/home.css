@@ -1,0 +1,178 @@
+body{
+	font-family: "Arial", sans-serif;
+	background-image: -webkit-linear-gradient( 45deg,#34aeff63 20%,#4ceaff71 45%);
+	background-attachment: fixed;
+}
+.container{
+	margin: 0 auto;
+    width: 90%;
+}
+/* Cabeçalho */
+header{
+	background-color: black;
+	position: fixed;
+    top: 0;
+	height: 12%;
+	width: 100%;
+}
+div img{
+	border-radius: 200px;
+	border: 10px solid black;
+	/*width: 300px;
+	*/
+	height: 200px;
+	width: 15%;
+	float: right;
+	margin-left: 50px;
+	box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 1.0);
+}
+.apresentacao{
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: -5px;
+	padding: 10px;
+	height: 20%;
+	width: 60%;
+}
+.apresentacao h1{
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+	color: white;
+}
+.apresentacao h2{
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+/* Corpo */
+hr{
+	height: 5px;
+	background-color: black;
+	border-radius: 5px;
+}
+.principal{
+	clear: both;
+	margin-top: 80px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+    width: 90%;
+}
+.principal h1{
+	font-size: 20px;
+	font-weight: 900;
+	margin: 15px;
+}
+.principal h2{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+	text-align: justify;
+}
+
+.principal p{
+	text-align: justify;
+	text-indent: 10px;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.principal ul li{
+	text-align: justify;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+
+
+.corpo1{
+	float: left;
+	display: inline-block;
+	width: 30%;
+	margin-left: 10%;
+}
+
+.corpo2{
+	float: right;
+	display: inline-block;
+	width: 30%;
+	margin-right: 20%;
+}
+
+table,th,td{
+	border: 2px solid black;
+	padding: 5px;
+}
+th{
+	font-weight: bold;
+}
+strong{
+	font-weight: 900;
+}
+
+
+
+
+div h1:hover{
+	color:  #867DC6;
+}
+
+div h2:hover{
+	color:  yellowgreen;
+}
+
+th:hover{
+	background-color:  #867DC6 !important;
+}
+tr:hover{
+	background-color:  yellowgreen !important;
+}
+td:hover{
+	background-color:  #867DC6 !important;
+}
+
+h1 a:hover{
+	color:  #867DC6;
+}
+
+
+
+
+/*-----------Rodapé--------------*/
+
+footer{
+    clear: both;
+    background-color: black;
+    
+    bottom: 0;
+    position: fixed;
+
+    height: 30px;
+    width: 100%;
+ 
+
+}
+footer h1{
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 5px;
+ 
+}
+footer h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+footer span{
+	font-weight: 900;
+	font-size: 16px;
+}
+
+
